@@ -1,1 +1,7 @@
-
+The objective of my question was to find the peak hours on what days that the citi bike rentals are being used the most and at what times. 
+To find this, I collected the historical data on bike rentals in the city and its information on date, time, and duration of each rental. 
+Then I cleaned the data and fix the missing values and inconsistencies. 
+After that, I inputted all of my data into R and from there, I created a bar graph to represent all of my findings on the data. 
+To do so, I arranged my data into columns of weekday and usage (hours) to find when the peak hours for rentals were.
+I did this to make my data more readable for others to understand. 
+I then coded to change the colors, position, and titles of my graph to make it look better. 
