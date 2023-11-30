@@ -16,3 +16,7 @@ ggplot(bike_usage, aes(x = weekday, y = usage)) +
   theme_minimal()
 bike_usage$weekday = sort(bike_usage$weekday)
 bike_usage = bike_usage [order(bike_usage$weekday),]
+
+library(ggplot2)
+chloe_data <- chloe_data %>%
+  mutate(hours = seconds(usage) / 3600)
